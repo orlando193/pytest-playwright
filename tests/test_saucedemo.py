@@ -28,6 +28,7 @@ def test_example(page: Page) -> None:
     home_page.finish.click()
     expect(home_page.check_finish).to_contain_text("Checkout: Complete!")
     home_page.logout()
+    #finished
     
     
    
